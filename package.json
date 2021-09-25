@@ -1,0 +1,22 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pm2": "pm2 start index.js -n 'SLASHBOT' --watch",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "colors": "^1.4.0",
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "node-pre-gyp": "^0.17.0",
+    "shell_exec": "^1.0.3",
+    "sqlite": "^3.0.6"
+  }
+}
