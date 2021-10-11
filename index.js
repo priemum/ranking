@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 require('dotenv').config()
-
+ 
 const client = new Discord.Client();
 const color = require('chalk');
 const fs = require('fs');
